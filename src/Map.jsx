@@ -3,8 +3,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { createLocalStore } from 'krestianstvo';
 
 export default function App(props) {
-  mapboxgl.accessToken =
-    'pk.eyJ1IjoiYXZpcmFkcyIsImEiOiJjbGhqNm5nYzUwZjE0M2RwMWwzOWh0MTIyIn0.5YL476EkxqHK4u-W97NRDg';
+  mapboxgl.accessToken = 'MAPBOX_API_KEY';
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/navigation-night-v1',
